@@ -1,0 +1,109 @@
+/* Background of the whole page */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #eeeeee; /* Light Gray */
+}
+
+/* Container with a beige square and centered content */
+.container {
+  text-align: center;
+  width: 350px; /* Adjusted size for the container */
+  padding: 20px;
+  background-color: #686d76; /* Dark Grayish Blue */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white; /* Text color for the container */
+}
+
+/* Input field styling */
+input[type="text"] {
+  width: 80%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #373a40; /* Dark Charcoal */
+  color: white;
+  placeholder-color: #dc5f00; /* Placeholder text color */
+}
+
+/* Button styling */
+button {
+  padding: 12px 25px;
+  background-color: #dc5f00; /* Bright Orange */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px 0;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #b45300; /* Darker Orange on hover */
+}
+
+/* Task list styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin: 6px 0;
+  background-color: #373a40; /* Dark Charcoal */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+li button {
+  background-color: #dc5f00; /* Bright Orange */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 6px 12px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+li button:hover {
+  background-color: #b45300; /* Darker Orange on hover */
+}
+
+li .edit {
+  background-color: #686d76; /* Dark Grayish Blue for edit button */
+}
+
+li .edit:hover {
+  background-color: #585c64; /* Slightly darker blue on hover */
+}
+
+/* Heading style */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: white; /* White text for heading */
+}
+
+/* Style for input and buttons */
+input, button {
+  font-family: inherit;
+  font-size: inherit;
+}

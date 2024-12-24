@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <!-- Correct link to external CSS file -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>To-Do List</h1>
+    
+    <!-- Input field for new tasks -->
+    <input type="text" id="taskInput" placeholder="Enter your task here" />
+    
+    <!-- Button to add task -->
+    <button id="addButton">Add Task</button>
+    
+    <!-- Task list -->
+    <ul id="taskList">
+      <!-- List items will be added dynamically here -->
+    </ul>
+  </div>
+
+  <script>
+    // JavaScript to handle the task list functionality
+    document.getElementById('addButton').addEventListener('click', function() {
+      const taskInput = document.getElementById('taskInput');
+      const taskText = taskInput.value.trim();
+
+      if (taskText !== "") {
+        // Create a new task item
+        const li = document.createElement('li');
+        li.innerHTML = `
+          ${taskText} 
+          <button class="edit">Edit</button>
+          <button class="delete">Delete</button>
+        `;
+
+        // Append new task to the list
+        document.getElementById('taskList').appendChild(li);
+        taskInput.value = ""; // Clear input field
+
+        // Add event listener to delete button
+        li.querySelector('.delete').addEventListener('click', function() {
+          li.remove(); // Remove the task
+        });
+
+        // Add event listener to edit button
+        li.querySelector('.edit').addEventListener('click', function() {
+          taskInput.value = taskText; // Populate input field with task text
+          li.remove(); // Remove the task from the list
+        });
+      }
+    });
+  </script>
+</body>
+</html>
