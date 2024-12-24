@@ -1,5 +1,4 @@
 # CODTECH-Task-1
-Here's a template for your **README** file that includes the details you've provided and the structure you requested. You can use this template to create your project documentation.
 
 ---
 
