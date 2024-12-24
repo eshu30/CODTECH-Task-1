@@ -6,7 +6,7 @@
 
 ### **Personal Information**
 
-- **Name:** Eshraj Venkatsai Krishna Talluri
+- **Name:** Eshraj VenkatsaiKrishna Talluri
 - **Company:** CODTECH IT SOLUTIONS PVT. LTD.
 - **Domain:** Frontend Web Development
 - **Duration:** December 12th, 2024 - January 12th, 2025 (4 weeks)
