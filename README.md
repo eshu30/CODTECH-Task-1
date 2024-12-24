@@ -70,7 +70,10 @@ The objective of this project is to:
 
 ## **Screenshots**
 
-_(You can add relevant screenshots here, showing the app's interface and usage.)_
+![image](https://github.com/user-attachments/assets/0ced968f-14cf-4c6b-8687-e40302fb849e)
+![image](https://github.com/user-attachments/assets/e7ba10a2-10e1-49df-b57f-e5c1944b5a68)
+![image](https://github.com/user-attachments/assets/f373b3fb-5e37-46d9-8c00-c98a0592d12c)
+
 
 ---
 
